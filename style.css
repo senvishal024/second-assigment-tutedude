@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.header-container{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.13);
+    justify-content:space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navitem{
+ display: flex;
+ gap: 3rem;
+ color: gray;
+}
+.navitem a{
+  color: gray;
+}  
+.username-container{
+    background-color: rgba(102, 199, 248, 0.263);
+    padding: 1rem 1rem;
+    border-radius: 0.7rem;
+}
+.username-container a{
+    color:rgb(43, 149, 255);
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+   
+}
+.left-hero-box{
+    flex-basis: 50%;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+  
+
+}
+.left-box-heading{
+    font-weight: bold;
+    font-size: 2rem;
+      line-height: 4rem;
+}
+.heading1{
+    color: rgb(70, 68, 68);
+}
+.heading2{
+      color:rgb(43, 149, 255);
+  
+}
+.left-hero-para{
+    color: rgba(128, 128, 128, 0.766);
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.booking-btn{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color:rgb(43, 149, 255) ;
+    color: #fff;
+    font-weight: bold;
+}
+.right-hero-box{
+    display: flex;
+    flex-basis: 50%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 50%;
+}
+.hero-img{
+    width: 80%;
+    height:50% ;
+
+}
